@@ -19,16 +19,15 @@ Rebounds
 Steals  
 Blocks  
 Turnovers  
+  
 Win at least 5 categories accumlated in a whole week against an opponent drafter.  
 
 This Project aims at preprocessing raw data scraped from https://www.basketball-reference.com/  
 Main steps in this project:  
   
-1. Data Scraping and Preprocessing:  
+1. Data Scraping and Preprocessing:
+- Thanks to https://jaebradley.github.io/basketball_reference_web_scraper/  
 - Includes EDA, filtering and joining tables using pandas.  
 2. Create a Team Roster Auto-Builder, based on:  
 - Weekly Player Performance Prediction.  
 - Dynamic Programming for team roster selection.  
-
-Notes: Fantasy basketball drafting is actually such a complex contrained optimization problem that I would like to dig deep in another project (Multiple Knapsack Assignment Problem).
-Right now I just want to "assist" my decision making rather than creating a whole automated roster building algorithm.
