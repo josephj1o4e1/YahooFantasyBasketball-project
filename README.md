@@ -19,6 +19,7 @@ Rebounds
 Steals  
 Blocks  
 Turnovers  
+  
 Win at least 5 categories accumlated in a whole week against an opponent drafter.  
 
 This Project aims at preprocessing raw data scraped from https://www.basketball-reference.com/  
