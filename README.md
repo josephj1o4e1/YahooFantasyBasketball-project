@@ -1,4 +1,8 @@
 # YahooFantasyBasketball-project0
+<p align="center">
+<img align="center" src="https://github.com/josephj1o4e1/YahooFantasyBasketball-project0/assets/13396370/a4b407c7-6d8d-4120-b191-17bc4f43b0b9" width="70%" height="70%">  
+</p>
+
 When playing yahoo's fantasy basketball's 9-cat game, looking at players stats everyday costs me too much time. I want to design a project that can assist with my decision making in drafting players. 
 
 In the 9-cat game, I'm a "drafter" drafting basketball "players".  
