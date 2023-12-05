@@ -30,4 +30,4 @@ Main steps in this project:
 - Includes EDA, filtering and joining tables using pandas.  
 2. Create a Team Roster Auto-Builder, based on:  
 - Weekly Player Performance Prediction.  
-- Dynamic Programming for team roster selection.  
+- Dynamic Programming (0/1 Knapsack) for team roster selection.  
