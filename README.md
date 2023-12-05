@@ -29,6 +29,3 @@ Main steps in this project:
 2. Create a Team Roster Auto-Builder, based on:  
 - Weekly Player Performance Prediction.  
 - Dynamic Programming for team roster selection.  
-
-Notes: Fantasy basketball drafting is actually such a complex contrained optimization problem that I would like to dig deep in another project (Multiple Knapsack Assignment Problem).
-Right now I just want to "assist" my decision making rather than creating a whole automated roster building algorithm.
