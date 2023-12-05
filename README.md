@@ -25,7 +25,8 @@ Win at least 5 categories accumlated in a whole week against an opponent drafter
 This Project aims at preprocessing raw data scraped from https://www.basketball-reference.com/  
 Main steps in this project:  
   
-1. Data Scraping and Preprocessing:  
+1. Data Scraping and Preprocessing:
+- Thanks to https://jaebradley.github.io/basketball_reference_web_scraper/  
 - Includes EDA, filtering and joining tables using pandas.  
 2. Create a Team Roster Auto-Builder, based on:  
 - Weekly Player Performance Prediction.  
