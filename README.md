@@ -20,7 +20,7 @@ Steals
 Blocks  
 Turnovers  
   
-Win at least 5 categories accumlated in a whole week against an opponent drafter.  
+Win more categories accumlated in a whole week against an opponent drafter (at least 5 for a little insurance).  
 
 This Project aims at preprocessing raw data scraped from https://www.basketball-reference.com/  
 Main steps in this project:  
