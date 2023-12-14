@@ -22,11 +22,10 @@ Turnovers
   
 Win more categories accumlated in a whole week against an opponent drafter (at least 5 for a little insurance).  
 
-This Project preproceses raw data scraped from https://www.basketball-reference.com/  
-
 Main steps in this project:  
   
 1. Data Scraping and Preprocessing:
+- Preproceses raw data scraped from https://www.basketball-reference.com/  
 - Thanks to https://jaebradley.github.io/basketball_reference_web_scraper/  
 - Includes EDA, filtering and joining tables using pandas.  
 2. Create a Team Roster Auto-Builder, based on:  
