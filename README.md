@@ -36,3 +36,8 @@ In the project0 notebook:
 
 In the project1 notebook:  
 Focusing mostly on time series analysis for player performance prediction.  
+- OLS Regression (serial dependence)
+- Trend (time dependence)
+- Seasonality (time dependence)
+- Cycles (serial dependence)
+- Hybrid
