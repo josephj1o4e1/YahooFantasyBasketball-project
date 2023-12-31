@@ -22,7 +22,8 @@ Turnovers
   
 Win more categories accumlated in a whole week against an opponent drafter (at least 5 for a little insurance).  
 
-Main steps in this project:  
+
+In the project0 notebook:  
   
 1. Data Scraping and Preprocessing:
 - Preproceses raw data scraped from https://www.basketball-reference.com/  
@@ -30,4 +31,8 @@ Main steps in this project:
 - Includes EDA, filtering and joining tables using pandas.  
 2. Create a Team Roster Auto-Builder, based on:  
 - Weekly Player Performance Prediction.  
-- Dynamic Programming (0/1 Knapsack) with multidimensional profit for team roster selection.  
+- Dynamic Programming (0/1 Knapsack) with multidimensional profit for team roster selection.
+
+
+In the project1 notebook:  
+Focusing mostly on time series analysis for player performance prediction.  
