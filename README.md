@@ -1,4 +1,4 @@
-# YahooFantasyBasketball-project0
+# YahooFantasyBasketball-project0 and project1
 <p align="center">
 <img align="center" src="https://github.com/josephj1o4e1/YahooFantasyBasketball-project0/assets/13396370/a4b407c7-6d8d-4120-b191-17bc4f43b0b9" width="70%" height="70%">  
 </p>
