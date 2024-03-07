@@ -1,0 +1,11 @@
+data/
+etl_prefect/
+experiments/
+getData.ipynb
+*.txt
+
+# *
+# !.gitignore
+# !/project
+# !environment.yml
+# !README.md
