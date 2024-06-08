@@ -12,30 +12,36 @@
 
 import pandas as pd
 from prefect import task, flow, get_run_logger
-# import boto3
-# from boto3.s3.key import key
+import os
+import time
+from project.player_box_score import player_box_score
+from project.nba_schedule import nba_schedule
+from typing import Dict
+
+player_box_score = player_box_score()
+nba_schedule = nba_schedule()
 
 # Extract pbs
 @task
-def extract_pbs_raw() -> dict:
-    pass
+def extract_pbs_raw() -> Dict[int, pd.DataFrame]:
+    return player_box_score.get_data()
 
 
 # Trans pbs
 @task
-def transform_pbs_raw() -> dict:
+def transform_pbs_raw(dfdict_pbs_raw: Dict[int, pd.DataFrame]) -> Dict[int, pd.DataFrame]:
     pass
 
 
-# Extract weekly_gc
+# Extract nba_schedule
 @task
-def extract_weekly_gc_raw() -> dict:
-    pass
+def extract_nba_schedule() -> Dict[int, pd.DataFrame]:
+    return nba_schedule.get_data()
 
 
-# Trans weekly_gc
+# Trans to weekly game counts
 @task
-def transform_weekly_gc_raw() -> dict:
+def transform_to_weekly_gc(dfdict_sched: Dict[int, pd.DataFrame]) -> Dict[int, pd.DataFrame]:
     pass
 
 
@@ -59,13 +65,13 @@ def subflow_view_pbs():
 
 @flow
 def subflow_weekly_gamecount(): 
-    dfdict_weekly_gc_raw = extract_weekly_gc_raw()
-    dfdict_weekly_gc = transform_weekly_gc_raw(dfdict_weekly_gc_raw)
+    dfdict_sched = extract_nba_schedule()
+    dfdict_weekly_gc = transform_to_weekly_gc(dfdict_sched)
     dfdict_to_s3(dfdict_weekly_gc)
     return dfdict_weekly_gc
 
 @task
-def generate_weeklyproj(dfdict_pbs, dfdict_weekly_gc):
+def generate_weeklyproj(dfdict_pbs, dfdict_weekly_gc): # pyspark merge join speed up test vs redshift. 
     pass
 
 
